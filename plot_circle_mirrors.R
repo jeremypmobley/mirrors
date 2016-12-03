@@ -63,3 +63,8 @@ for(i in 1:nrow(mat)){
 }
 
 
+# save out mirror center placements as csv
+setwd("~/GitHub/mirrors")
+
+
+
