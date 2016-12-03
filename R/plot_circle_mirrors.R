@@ -64,7 +64,7 @@ for(i in 1:nrow(mat)){
 
 
 # save out mirror center placements as csv
-#setwd("~/GitHub/mirrors")
+#setwd("~/GitHub/mirrors/data")
 #names(mat) <- c("circle_rad", "xcord", "ycord")
 #write.csv(mat, "mirror_centers.csv")
 
