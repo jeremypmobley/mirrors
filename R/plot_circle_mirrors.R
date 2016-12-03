@@ -3,7 +3,7 @@
 # Author: Jeremy Mobley
 # Program to randomize the location of the mirrors on my wall
 
-# Heavily based on code found at the following:
+# Heavily based on code found at the following:a
 #https://www.r-bloggers.com/plotting-non-overlapping-circles/
 #https://www.r-bloggers.com/circle-packing-with-r/
 
@@ -64,7 +64,7 @@ for(i in 1:nrow(mat)){
 
 
 # save out mirror center placements as csv
-setwd("~/GitHub/mirrors")
-
-
+#setwd("~/GitHub/mirrors")
+#names(mat) <- c("circle_rad", "xcord", "ycord")
+#write.csv(mat, "mirror_centers.csv")
 
