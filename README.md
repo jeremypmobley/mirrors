@@ -13,11 +13,11 @@ Repo containing code and pictures relating to plotting mirrors on my wall.
 ### Plot of Mirrors:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/mirrors_plotted.png)
 
-### Table of Circle Center Coordinates:
-![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/data/mirror_centers.csv)
-
 ### Picture of Mirrors:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/wallmirrors.jpg)
+
+### Link to csv of Circle Center Coordinates:
+https://github.com/jeremypmobley/mirrors/blob/master/data/mirror_centers.csv
 
 ### Next Steps:
 - Finish this README doc
@@ -25,13 +25,3 @@ Repo containing code and pictures relating to plotting mirrors on my wall.
 ### Need to add:
 - Add picture of blank wall
 - Add better description of story
-
-
-
-
-
-
-
-
-
-
