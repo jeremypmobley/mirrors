@@ -31,7 +31,7 @@ for each mirror:
 	(x,y) <- coordinates of mirror center
 	while overlap with other mirrors is TRUE:
 		(x,y) <- coordinates of mirror center
-	centers <- (x,y)
+	centers[mirror] <- (x,y)
 ```
 
 Key things to place mirrors: 
