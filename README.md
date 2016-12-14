@@ -11,6 +11,9 @@ Repo containing code and pictures relating to plotting mirrors on my wall.
 * Now I have mirrors on my wall
 
 ### Plot of Mirrors:
+![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/blankwall.png)
+
+### Plot of Mirrors:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/mirrors_plotted.png)
 
 ### Picture of Mirrors:
