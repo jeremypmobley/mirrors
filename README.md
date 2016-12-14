@@ -35,10 +35,11 @@ for each mirror:
 ```
 
 Key things to place mirrors: 
- * No overlap
  * No out-of-bounds
 
 A buffer was built into the logic of choosing the initial mirror center coordinates. So instead of choosing a random number between 0 and 60 for the height a number was chosen between (0 + circle radius + buffer) and (60 - circle radius - buffer).
+
+ * No overlap
 
 After each new circle's center coordinates are chosen the circle is checked to make sure it does not overlap with any of the previous circles.  A buffer was built so that not only did no mirrors overlap but that there was a minimum space gap between the edges of the mirrors. So the distance between the centers of the mirrors must exceed the sum of the radius of each of the circles plus the minimum space gap buffer.
 
