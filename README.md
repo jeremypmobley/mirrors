@@ -16,19 +16,32 @@ Repo containing code and pictures relating to plotting mirrors on my wall.
 ### Picture of Mirrors:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/wallmirrors.jpg)
 
-### How it works:
+### How the code works:
 
 Pseudo-code
 
 ```
 for each mirror:
 	(x,y) <- coordinates of mirror center
-	while overlap with other mirrors TRUE:
+	while overlap with other mirrors is TRUE:
 		(x,y) <- coordinates of mirror center
 	centers <- (x,y)
 ```
+
+Key things to place mirrors: 
+ * No overlap
+ * No out-of-bounds
+
+A buffer was built into the logic of choosing the initial mirror center coordinates. So instead of choosing a random number between 0 and 60 for the height a number was chosen between (0 + circle radius + buffer) and (60 - circle radius - buffer).
+
+After each new circle's center coordinates are chosen the circle is checked to make sure it does not overlap with any of the previous circles.  A buffer was built so that not only did no mirrors overlap but that there was a minimum space gap between the edges of the mirrors. So the distance between the centers of the mirrors must exceed the sum of the radius of each of the circles plus the minimum space gap buffer.
+
+If these conditions were not met, new center coordinates are chosen.
+
 
 ### Next Steps:
 - Finish this README doc
 	- Add picture of blank wall
 	- Add better description of story
+
+Mirrors - https://www.walmart.com/ip/Mainstays-5-Piece-Mirror-Set-Black/21001984
