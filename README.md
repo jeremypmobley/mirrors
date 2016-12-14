@@ -16,12 +16,19 @@ Repo containing code and pictures relating to plotting mirrors on my wall.
 ### Picture of Mirrors:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/wallmirrors.jpg)
 
-### Link to csv of Circle Center Coordinates:
-https://github.com/jeremypmobley/mirrors/blob/master/data/mirror_centers.csv
+### How it works:
+
+Pseudo-code
+
+```
+for each mirror:
+	(x,y) <- coordinates of mirror center
+	while overlap with other mirrors TRUE:
+		(x,y) <- coordinates of mirror center
+	centers <- (x,y)
+```
 
 ### Next Steps:
 - Finish this README doc
-
-### Need to add:
-- Add picture of blank wall
-- Add better description of story
+	- Add picture of blank wall
+	- Add better description of story
