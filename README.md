@@ -10,16 +10,16 @@ Repo containing code and pictures relating to plotting mirrors on my wall.
 * I put the mirrors on the wall
 * Now I have mirrors on my wall
 
-### Picture of Blank Wall:
+### Picture of lots of wall space:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/blankwall.jpg)
 
 ### Mirrors:
 ![alt tag](https://ll-us-i5.wal.co/asr/4f69bfd3-59b1-4ea6-8053-a9650799c6ab_1.484d1a595025c169e727dad4bc7208c5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF)
 
-### Plot of Mirrors:
+### Plot of mirrors:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/mirrors_plotted.png)
 
-### Picture of Mirrors:
+### Picture of mirrors on wall:
 ![alt tag](https://github.com/jeremypmobley/mirrors/blob/master/output/wallmirrors.jpg)
 
 ### How the code works:
@@ -47,10 +47,7 @@ If these conditions were not met, new center coordinates are chosen.
 
 ### Next Steps:
 - Finish this README doc
-	- Add picture of blank wall
 	- Add better description of story
 
 Mirrors - https://www.walmart.com/ip/Mainstays-5-Piece-Mirror-Set-Black/21001984
-
-
 
